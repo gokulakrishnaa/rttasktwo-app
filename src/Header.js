@@ -1,6 +1,7 @@
 import "./Header.css";
 import Button from "@mui/material/Button";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+// import { useState } from "react";
 
 export function Header({ add, setAdd, remove, setRemove }) {
   return (
