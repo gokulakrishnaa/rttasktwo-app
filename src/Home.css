@@ -1,0 +1,6 @@
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 50px;
+}
