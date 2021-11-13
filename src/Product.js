@@ -54,7 +54,7 @@ export function Product({
           </Button>
           <Button
             onClick={() => {
-              setRemove(add - 1);
+              setRemove(remove);
               setShow(true);
             }}
           >

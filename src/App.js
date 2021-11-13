@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function App() {
   const [add, setAdd] = useState(0);
-  const [remove, setRemove] = useState(0);
+  const [remove, setRemove] = useState(add - 1);
   return (
     <div className="App">
       <Header add={add} setAdd={setAdd} />
